@@ -4,6 +4,17 @@
 
 A simple bank transactions application with a frontend built using React and a backend API built using Flask and MySQL.
 
+## Table of Contents
+
+- Features
+- Installation
+  - Backend
+  - Frontend
+- Usage
+- Technologies Used
+- Known Issues
+- Future Improvements
+
 ## Features
 
 - Create a new account
@@ -16,16 +27,16 @@ A simple bank transactions application with a frontend built using React and a b
 ### Backend
 
 1. Clone the repository.
-2. Navigate to the backend directory.
+2. Navigate to the backend directory. `cd bank-project`
 3. Install dependencies: `pip install -r requirements.txt`
 4. Set up a MySQL database and update the connection details in `app.py`.
 5. Run the Flask server: `python app.py`
 
 ### Frontend
 
-1. Navigate to the frontend directory.
+1. Navigate to the frontend directory. `cd react-bank`
 2. Install dependencies: `npm install`
-3. Start the development server: `npm start`
+3. Start the development server: `npm run dev`
 
 ## Usage
 
@@ -50,6 +61,4 @@ A simple bank transactions application with a frontend built using React and a b
 - Add transaction history
 - Improve error handling
 
-## License
 
-[MIT](LICENSE)
